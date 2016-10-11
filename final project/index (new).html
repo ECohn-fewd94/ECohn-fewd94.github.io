@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	To-Do
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<!-- <link rel="stylesheet" href="reset.css"> -->
+</head>
+<body>
+
+<div id="background_img">
+
+<header>
+<h1>My To-Do List</h1>
+<h2 id="date"> Today's Date: </h2>
+</header>
+
+<section class="lists">
+	<h2>Add Your Tasks Below:</h2>
+	<p class="input">Task:</p>
+	<input class="input" id="add_task" type=text placeholder="Add Task"/>
+	<p id="category" class= "input">Category:</p>
+	<select id="dropdown" class="input">
+	<option value="Work">Work</option>
+	<option value="Personal">Personal</option>
+	<option value="Miscellaneous">Miscellaneous</option>
+	</select>
+	<p class="input">Due Date:</p>
+	<input class="input" id="due_date" type=text placeholder="DD/MM/YYY"/>
+	<button id="addtask" class="input">Add Task</button>
+</section>
+
+<div id="body">
+<div id="work" class="to_do">
+<h2>Work To Do's:</h2>	
+</div>
+
+<div id="personal" class="to_do">
+<h2>Personal To Do's:</h2>	
+</div>
+
+<div id="misc" class="to_do">
+<h2>Miscellaneous To Do's:</h2>	
+</div>
+
+<div class="foot">
+<div id="contact">
+<div id="info">
+<p>Contact Me:</p>
+</div>
+<p>Emily Cohn</p>
+<p>954-621-7538</p>
+<p>emilycohn23@gmail.com</p>
+</div>
+
+<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.019495210728!2d-73.99436504939717!3d40.739596543762886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a30f3c2f65%3A0xfd82e04eccda1355!2s11+W+19th+St%2C+New+York%2C+NY+10011!5e0!3m2!1sen!2sus!4v1475795975302" width="450" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>

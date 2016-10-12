@@ -1,5 +1,5 @@
 #background_img{
-	background-image: url("FengShui_Feat.jpeg");
+	background-image: url("FengShui_Feat.jpeg") no-repeat;
 	min-height: 100%;
 	min-width: 1024px;
   	width: 100%;
@@ -77,26 +77,26 @@ h1{
 	text-align: center;
 }
 
-#body{
-	margin: 20px;	
-}
-
 #body h2{
 	font-size: 24px;
 }
 
 #misc{
 	color: #4ABDAC;
+	margin: 10px;
 }
 
 #work{
 	color: white;
+	margin: 10px;
 }
 
 #personal{
 	border-right: solid white 3px;
 	border-left: solid white 3px;
 	color: #ff9999;
+	margin: 10px;
+	height: 550px;
 }	
 
 #map{
@@ -134,4 +134,5 @@ h1{
 .strikethrough{
 	text-decoration: line-through;
 }
-	
+
+
